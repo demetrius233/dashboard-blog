@@ -1,0 +1,64 @@
+body{
+    font-family: 'Gayathri', sans-serif;
+}
+
+.barra-lateral{
+    background-color: #263a4e;
+}
+
+@media (min-width: 992px) {
+    .barra-lateral{
+        min-height: 100vh;
+    }
+}
+
+.barra-lateral a{
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+
+.barra-lateral ul{
+    list-style: none;
+    padding: 0;
+}
+
+
+/* global h3 */
+h3{
+    font-weight: normal;
+}
+
+.barra-lateral ul a span{
+    display: inline-block;
+    width: 60px;
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+}
+.barra-lateral ul a:hover{
+    background-color: #545455;
+}
+
+
+.barra-lateral ul a span:nth-child(2){
+    text-align: left;
+}
+@media (max-width: 992px){
+    .barra-lateral ul a span:nth-child(2){
+        display: none;
+    }
+}
+
+/* MAIN */
+.main textarea{
+    min-height: 250px;
+    max-height: 400px;
+}
+
+/* ESTADISTICAS */
+.caja-estadisticas li{
+    flex: 1 0 100px;
+    flex-wrap: wrap;
+}
